@@ -1,9 +1,9 @@
 # Predictive Maintenance Using Gower-Style Similarity and k-NN
 
 **Course:** Data Warehousing and Mining (DWM)  
-**Student:** Taazeen Ansari  
-**Roll Number:** 124A1166  
-**Group:** 4  
+**Student:** Taazeen Ansari, Anusha Shetty, Aarya Yewale, Pranali Raut
+**Roll Number:** 124A1166, 124A1166, 124A1152, 124A1188, 122A1071
+
 
 ## Problem statement
 Build a small demonstration system that compares CNC machines with mixed-type attributes and predicts whether a machine is **Normal**, **Warning**, or **Critical**. The implementation combines a Gower-style similarity score with a k-Nearest Neighbors (k-NN) classifier.
