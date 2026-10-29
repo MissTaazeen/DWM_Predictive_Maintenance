@@ -1,0 +1,31 @@
+==============================================================
+PREDICTIVE MAINTENANCE: GOWER-STYLE SIMILARITY + k-NN
+==============================================================
+Dataset records: 20
+Training records: 15 | Test records: 5
+Feature types: nominal, binary, ordinal, numeric
+k = 3
+Test accuracy: 100.00% (5/5)
+
+Test predictions:
+01. Actual=Critical Predicted=Critical PASS
+02. Actual=Normal  Predicted=Normal  PASS
+03. Actual=Warning Predicted=Warning PASS
+04. Actual=Critical Predicted=Critical PASS
+05. Actual=Warning Predicted=Warning PASS
+
+New machine assessment:
+  machine_type: CNC_Mill
+  coolant_leak: 1
+  vibration_level: High
+  temperature_c: 91.0
+  spindle_rpm: 1200.0
+  hours_since_service: 680.0
+Predicted condition: Critical
+Top 3 similar machines:
+  1. ID=M009 | condition=Critical | similarity=0.974
+  2. ID=M016 | condition=Critical | similarity=0.817
+  3. ID=M010 | condition=Critical | similarity=0.798
+
+Note: Results use a small synthetic dataset for academic demonstration.
+This prototype is not validated for real industrial maintenance decisions.
