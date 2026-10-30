@@ -1,1 +1,2 @@
-# Uses only the Python standard library; no external packages required.
+pandas>=2.2
+numpy>=2.0
